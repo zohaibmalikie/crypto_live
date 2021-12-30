@@ -1,0 +1,68 @@
+@media only screen and (max-width: 768px) {
+    .main_padding{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pl-120{
+        padding-left: 15px;
+    }
+    .pr-120{
+        padding-right: 15px;
+    }
+
+    /* Laning page code start */
+    .logo{
+        width: 123px;
+    }
+    .loginBtn{
+        padding: 2px 12px;
+        font-size: 12px;
+    }
+    .mobile_f_d_c{
+        flex-direction: column-reverse;
+    }
+
+    .bgImage{
+        height: 409px;
+        margin: auto;
+    }
+
+    .how_WorkImg {
+        text-align: center;
+    }
+    .how_WorkImg img {
+        position: relative;
+        left: 0px;
+    }
+    .mobile-h-550{
+        height: 550px;
+    }
+    /* Laning page code end */
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1080px){
+    .main_padding{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .pl-120{
+        padding-left: 40px;
+    }
+    .pr-120{
+        padding-right: 40px;
+    }
+
+    /* Laning page code start */
+    .logo{
+        width: 123px;
+    }
+    .loginBtn{
+        padding: 2px 12px;
+        font-size: 12px;
+    }
+    /* Laning page code end */
+
+}

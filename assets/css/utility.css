@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url('../fonts/Ubuntu-Bold.ttf');
+}
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url('../fonts/Ubuntu-Light.ttf');
+}
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url('../fonts/Ubuntu-Medium.ttf');
+}
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url('../fonts/Ubuntu-Regular.ttf');
+}
+:root {
+    --yellow: #FFE863;
+    --purple: #8736AA;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.font-ub{
+    font-family: Ubuntu-Bold;
+}
+.font-um{
+    font-family: Ubuntu-Medium;
+}
+.font-ul{
+    font-family: Ubuntu-Light;
+}
+.font-ur{
+    font-family: Ubuntu-Regular;
+}
+
+.main_padding{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.pl-120{
+    padding-left: 120px;   
+}
+.pr-120{
+    padding-right: 120px;
+}
+
+.bg-yellow{
+    background-color: var(--yellow) !important;
+}
+
+.cl-purple{
+    color: var(--purple);
+}
+
+.ttu{
+    text-transform: uppercase;
+}
