@@ -25,6 +25,9 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none !important;
+}
 
 .font-ub{
     font-family: Ubuntu-Bold;
@@ -53,11 +56,28 @@
 .bg-yellow{
     background-color: var(--yellow) !important;
 }
+.bg-242424{
+    background-color: #242424;
+}
+.bg-393B6C{
+    background-color: #393B6C;
+}
+.bg-010101{
+    background-color: #010101;
+}
+
 
 .cl-purple{
     color: var(--purple);
 }
+.cl-yellow{
+    color: var(--yellow);
+}
 
 .ttu{
     text-transform: uppercase;
+}
+
+.imgGray{
+    filter: grayscale(1);
 }
