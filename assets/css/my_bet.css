@@ -1,6 +1,6 @@
 .activePage {
     height: 3px;
-    background-color: #ffe863;
+    background-color: var(--yellow);
     position: absolute;
     bottom: -15px;
     left: 3px;

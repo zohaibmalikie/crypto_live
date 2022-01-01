@@ -34,21 +34,21 @@
                                 d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z" />
                         </svg></div>
                     <div class="d-flex justify-content-between menu__SectionInner">
-                        <a href="#" class="position-relative">
+                        <a href="./dashboard.html" class="position-relative">
                             <div class="d-flex align-items-center">
                                 <img src="./assets/img/icons/home.png" alt="Home image" class="imgGray">
                                 <div class="text-white ps-2 font-ur">Home</div>
                             </div>
                             <!-- <div class="activePage "></div> -->
                         </a>
-                        <a href="#" class="position-relative">
+                        <a href="./my_bets.html" class="position-relative">
                             <div class="d-flex align-items-center">
                                 <img src="./assets/img/icons/my_bet.png" class="imgGray" alt="My Bets image">
                                 <div class="ps-2 text-white font-ur ">My Bets</div>
                             </div>
                         </a>
 
-                        <a href="#" class="position-relative">
+                        <a href="./bets.html" class="position-relative">
                             <div class="d-flex align-items-center">
                                 <img src="./assets/img/icons/bet.png" alt="Bet image" class="">
                                 <div class=" ps-2 font-ur cl-yellow">Bet</div>
@@ -74,7 +74,13 @@
                         </a>
                     </div>
                 </div>
+
+                  
+                
                 <div class="position-relative">
+                    <span class="text-white">
+                        Wanna place a bet?
+                    </span>
                     <a href="#">
                         <button type="button" class="btn-custom font-ub bg-yellow">Log in</button>
                     </a>
@@ -110,28 +116,28 @@
                 </div>
             </div>
             <div class="row mx-0 py-3">
-                <div class="col-lg-6 ps-0">
+                <div class="col-lg-6 ps-0 pe-0 pe-md-2">
                     <div class="cl-9F9F9F py-2">CURRENT PRICE</div>
                     <div class="p-2 bg-00203F radius-8 text-center">
-                        $158.63
+                        <input type="text" data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'prefix': '$ ', 'digits': 2, 'digitsOptional': false, 'placeholder': '0'" value="158.63" class="bg-transparent text-white" style="border:0px" >
                     </div>
                 </div>
-                <div class="col-lg-6 pe-0">
+                <div class="col-lg-6 pe-0 ps-0 ps-md-2">
                     <div class="cl-9F9F9F py-2 text-end">PREDICTION PRICE</div>
                     <div class="p-2 bg-00203F radius-8 text-center">
-                        $158.63
+                        <input type="text" data-inputmask="'alias': 'numeric', 'groupSeparator': ',', 'prefix': '$ ', 'digits': 2, 'digitsOptional': false, 'placeholder': '0'" value="160.63" class="bg-transparent text-white" style="border:0px" >
                     </div>
                 </div>
             </div>
             <div class="text-center">
-                <button class="btn btn-warning px-5 py-3 my-5 text-white bg-yellow radius-8">PLACE BET</button>
+                <button class="btn btn-warning bg-yellow px-5 py-2 my-5 text-white bg-yellow radius-8">PLACE BET</button>
             </div>
         </div>
     </section>
     <!-- Navbar code end -->
     <!-- Main Section code start -->
     <section class="bg-010101">
-        <div class="main_padding py-5">
+        <div class="main_padding pb-5">
             <h3 class="font-ub cl-yellow ">My Bets</h3>
             <div class="table-responsive mt-4">
                 <table class="table text-white myBetTable">
@@ -415,6 +421,7 @@
     <script src="./assets/plugins/bootstrap/js/popper.min.js"></script>
     <script src="./assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/plugins/bootstrap/js/jquery.js"></script>
+    <script src="./assets/js/inputmask.js"></script>
     <script>
         const menuToggler = (e) => {
             menuSection.style.left = '0'
@@ -479,9 +486,8 @@
             //$('.btn-select').attr('value', 'en');
         }
 
-
-
     </script>
+
 </body>
 
 </html>
