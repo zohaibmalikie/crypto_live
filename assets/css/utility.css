@@ -1,27 +1,42 @@
-@font-face {
-    font-family: Ubuntu-Bold;
-    src: url('../fonts/Ubuntu-Bold.ttf');
-}
-@font-face {
-    font-family: Ubuntu-Light;
-    src: url('../fonts/Ubuntu-Light.ttf');
-}
-@font-face {
-    font-family: Ubuntu-Medium;
-    src: url('../fonts/Ubuntu-Medium.ttf');
-}
-@font-face {
-    font-family: Ubuntu-Regular;
-    src: url('../fonts/Ubuntu-Regular.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mulish&family=Poppins&family=Ubuntu&display=swap');
+
 :root {
     --yellow: #FFE863;
     --purple: #8736AA;
 }
 
-*{
+.bg-121212 {
+    background-color: #121212;
+}
+
+.bg-000 {
+    background: #000;
+}
+
+.bg-242424 {
+    background-color: #242424;
+}
+
+input {
+    outline: none;
+}
+
+.radius-24 {
+    border-radius: 24px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.cl-b1b1b1 {
+    color: #B1B1B1;
+}
+
+* {
     margin: 0px;
     padding: 0px;
+    font-family: 'Ubuntu', sans-serif !important;
     box-sizing: border-box;
 }
 
@@ -29,55 +44,109 @@ a {
     text-decoration: none !important;
 }
 
-.font-ub{
+.font-ub {
     font-family: Ubuntu-Bold;
 }
-.font-um{
+
+.font-um {
     font-family: Ubuntu-Medium;
 }
-.font-ul{
+
+.font-ul {
     font-family: Ubuntu-Light;
 }
-.font-ur{
+
+.font-ur {
     font-family: Ubuntu-Regular;
 }
 
-.main_padding{
+.main_padding {
     padding-left: 120px;
     padding-right: 120px;
 }
-.pl-120{
-    padding-left: 120px;   
+
+.pl-120 {
+    padding-left: 120px;
 }
-.pr-120{
+
+.pr-120 {
     padding-right: 120px;
 }
 
-.bg-yellow{
+.bg-yellow {
     background-color: var(--yellow) !important;
 }
-.bg-242424{
+
+.cl-yellow {
+    color: var(--yellow) !important;
+}
+
+.radius-8 {
+    border-radius: 8px !important;
+}
+
+.bg-242424 {
     background-color: #242424;
 }
-.bg-393B6C{
+
+.bg-393B6C {
     background-color: #393B6C;
 }
-.bg-010101{
+
+.bg-010101 {
     background-color: #010101;
 }
 
 
-.cl-purple{
+.cl-purple {
     color: var(--purple);
 }
-.cl-yellow{
+
+.cl-yellow {
     color: var(--yellow);
 }
 
-.ttu{
+.ttu {
     text-transform: uppercase;
 }
 
-.imgGray{
+.imgGray {
     filter: grayscale(1);
+}
+
+.togglerMenu {
+    display: none;
+}
+
+.closeToggler{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .sidebarToogler {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: 0.7s ease-in-out;
+        z-index: +7;
+        right: -90rem;
+    }
+    .closeToggler{
+        position: absolute;
+        right: 8%;
+        display: block;
+    }
+    .search__Div {
+        display: none;
+    }
+
+    .sidebar_ul li {
+        justify-content: start !important;
+        padding-left: 15px !important;
+    }
+
+    .togglerMenu {
+        display: block;
+    }
 }

@@ -1,0 +1,22 @@
+.sidebar_ul {
+    padding-left: 0px;
+}
+
+.sidebar_ul li {
+    padding: 13px 0;
+    margin-top: 12px;
+
+}
+
+.active_li {
+    background: #404040;
+    border-radius: 0px 25px 25px 0px;
+    border-left: 4px solid #F5BD1F;
+}
+
+.sidebar_ul li:hover {
+    background: #404040;
+    border-radius: 0px 25px 25px 0px;
+    border-left: 4px solid #F5BD1F;
+    transition: .4s ease-in-out;
+}
