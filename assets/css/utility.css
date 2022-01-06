@@ -203,7 +203,17 @@ a {
         z-index: +7;
         left: -90rem;
     }
-
+    .right__Section {
+        margin-left: 0%;
+        padding-left: 8px !important;
+    }
+    .banner__title2 {
+        font-size: 31.85px;
+    }
+    .banner__title3 {
+        font-size: 22.67px;
+        font-weight: 600;
+    }
     .closeToggler {
         position: absolute;
         right: 8%;
@@ -222,4 +232,15 @@ a {
     .togglerMenu {
         display: block;
     }
+    .flec {
+        flex-direction: column;
+    }
+    .img-100{
+    width: 100%;
+    }
+    .padding-0 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
 }
