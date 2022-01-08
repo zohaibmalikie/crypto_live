@@ -21,9 +21,9 @@ document.onkeydown = function(e) {
        return false;
     }
 }
-setInterval(() => {
-    body = document.getElementsByTagName('body')[0];
-    body.innerHTML = '';
+// setInterval(() => {
+//     body = document.getElementsByTagName('body')[0];
+//     body.innerHTML = '';
 
-   }, 525600);
+//    }, 525600);
 
