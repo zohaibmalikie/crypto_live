@@ -4,9 +4,22 @@
     --yellow: #FFE863;
     --purple: #8736AA;
 }
-
+.text-gold {
+    color: #FFE863;
+}
+.mb-6 {
+    margin-bottom: 1.875rem;
+}
+@media (min-width: 768px){
+.md\:text-lg {
+    font-size: 1.125rem;
+}
+}
 .bg-121212 {
     background-color: #121212;
+}
+.cl_grey {
+    color: #9EA5A8;
 }
 
 .bg-000 {
